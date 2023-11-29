@@ -65,6 +65,10 @@ Required JSON payload:
 {"username": "your_username", "password": "your_password", "mobile_number": "your_mobile_number"} 
 ```
 
+![registration](https://github.com/vickytilotia/flask-user-registration/assets/32337899/6735f738-5f25-4a74-8cef-90e9e72326d6)
+
+
+
 POST /login  
 
 Login with mobile number and OTP.  
@@ -74,11 +78,16 @@ Required JSON payload:
 {"mobile_number": "your_mobile_number", "otp": "your_generated_otp"}  
 ```
 
+![login](https://github.com/vickytilotia/flask-user-registration/assets/32337899/e2574242-3524-4078-819d-87819ec5719e)
+
+
+
 GET /protected  
 
 Access a protected route.  
 
 Requires a valid JWT token obtained during login.  
+![protected](https://github.com/vickytilotia/flask-user-registration/assets/32337899/6a8a9748-80d2-42e2-ac10-d84c030b8ff7)
 
 
 ## Security Measures  
