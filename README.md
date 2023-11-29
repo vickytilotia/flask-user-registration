@@ -22,18 +22,23 @@ number.
 1. Clone the repository
 ```bash
 git clone https://github.com/vickytilotia/flask-user-registration.git
+```
+```bash
 cd flask-user-authentication
 ```
 
 2. Set up a virtual environment (optional but recommended):
 ```bash
 python -m venv venv
-# To activate virtualenv on windows
+```
+To activate virtualenv on windows  
+```bash
 venv\Scripts\activate
-# On macOS/Linux
+```
+On macOS/Linux
+```bash
 source venv/bin/activate
 ```
-
 
 3. Install the required packages:
 ```bash
